@@ -1,0 +1,60 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+
+
+.bg-color{
+  background-color:#8ca0ff
+}
+
+
+.header1{
+    
+    display:grid;
+    grid-template-columns:1.5fr 1fr 1fr 1fr 
+    
+   }
+.header2{
+    
+    display:grid;
+    grid-template-columns:5fr 2fr 2fr 2fr 
+    
+   }
+
+.header3{
+    
+display:grid;
+grid-template-columns:2.4fr 1fr 1fr 1fr 1fr  }
+ #logo{
+    padding-left:3rem
+  }
+  
+  .head-color{
+    color:white
+    
+  }   
+
+.head-logo-padd{
+    padding-top: 4.5px;
+
+}
+ .head-padd{
+    padding-top: 15px;
+}
+
+.search-wrapper_input{
+    border: none;
+    padding: 0.3rem 0.6rem;
+    bottom:10px
+    outline:2px solid black;
+}
+
+.search-wrapper{
+    position: relative;
+    top:30px
+}
+.search-wrapper .fa-search{
+    position: absolute;
+    top: 0.35rem;
+    right: 0.6rem;
+    color: #8ca0ff;
+}
+  
