@@ -3,7 +3,7 @@
 
 @media screen and (max-width:768px)
 { 
-#page1{
+.page1{
     font-size: 12px;
 } 
  footer {
@@ -28,7 +28,7 @@ body{
 
 
   
-  #page1 {
+  .page1 {
     display: grid;
     width: 100%;
     
@@ -41,7 +41,7 @@ body{
 
 
   
-  #page1 > header {
+  .page1 > header {
     grid-area: head;
     background-color: #8ca0ff;
   }
@@ -51,12 +51,12 @@ body{
     background-color: #F5F5F5;
   } */
   
-  #page1 > main {
+  .page1 > main {
     grid-area: main;
     background-color:#FFFFFF;
   }
   
-  #page1 > footer {
+  .page1 > footer {
     grid-area: foot;
     background-color:#8ca0ff;
   }
