@@ -1,0 +1,33 @@
+.strong{
+    font-weight:bold
+  }
+  
+  .italic{
+    font-style:italic
+  }
+  
+  .color{
+    color:blue
+  }
+  
+  .highlight{
+    background-color:#8ca0ff
+  }
+  .underline{
+    text-decoration:underline;
+  }
+  .line-through{
+    text-decoration:line-through;
+  }
+  
+  .left{
+    text-align:left
+  }
+  
+  .center{
+    text-align:center
+  }
+  
+  .right{
+    text-align:right;
+  }
