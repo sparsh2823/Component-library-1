@@ -43,7 +43,7 @@ grid-template-columns:2.4fr 1fr 1fr 1fr 1fr  }
 .search-wrapper_input{
     border: none;
     padding: 0.3rem 0.6rem;
-    bottom:10px
+    bottom:10px;
     outline:2px solid black;
 }
 
