@@ -6,23 +6,25 @@ p{
 .success{
   
   border:0.5px solid green;
-  background-color:#32CD32
+  background-color:#32CD32;
+  margin:1rem;
  
 }
 .failure{
   border:0.5px solid red;
-  background-color:#E23D28
+  background-color:#E23D28;
+  margin:1rem;
 }
 
 .warning{
   border:0.5px solid orange;
-  background-color:#ffc87c
+  background-color:#ffc87c;
+  margin:1rem;
 }
 .info{
   border:0.5px solid blue;
-  background-color:#8ca0ff
+  background-color:#8ca0ff;
+  margin:1rem;
 }
-.b{
-  margin:1rem
-}
+
 
