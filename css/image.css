@@ -1,0 +1,14 @@
+.responsive {
+    width: 100%;
+    max-width: 30rem;
+    height: auto;
+    margin: 0.2rem;
+   }
+   
+   .circular{
+       width: 14rem;
+       height: 14rem;
+       border-radius: 50%;
+       margin: 0.2rem;
+   
+   }
