@@ -1,8 +1,8 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
-
+@import url("/css/root.css");
 
 .bg-color{
-  background-color:#8ca0ff
+  background-color:var(--primary-color);
 }
 
 
@@ -24,7 +24,7 @@
 display:grid;
 grid-template-columns:2.4fr 1fr 1fr 1fr 1fr  }
  #logo{
-    padding-left:3rem
+    padding-left:3rem;
   }
   
   .head-color{
@@ -33,28 +33,28 @@ grid-template-columns:2.4fr 1fr 1fr 1fr 1fr  }
   }   
 
 .head-logo-padd{
-    padding-top: 4.5px;
+    padding-top:0.281rem;
 
 }
  .head-padd{
-    padding-top: 15px;
+    padding-top:0.938rem;
 }
 
 .search-wrapper_input{
     border: none;
     padding: 0.3rem 0.6rem;
-    bottom:10px;
+    bottom:0.625rem;
     outline:2px solid black;
 }
 
 .search-wrapper{
     position: relative;
-    top:30px
+    top:1.875rem;
 }
 .search-wrapper .fa-search{
     position: absolute;
     top: 0.35rem;
     right: 0.6rem;
-    color: #8ca0ff;
+    color: var(--primary-color);
 }
   
