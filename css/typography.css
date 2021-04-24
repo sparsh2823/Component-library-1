@@ -1,17 +1,19 @@
+@import url("/css/root.css");
+
 .strong{
-    font-weight:bold
+    font-weight:bold;
   }
   
   .italic{
-    font-style:italic
+    font-style:italic;
   }
   
   .color{
-    color:blue
+    color:blue;
   }
   
   .highlight{
-    background-color:#8ca0ff
+    background-color:var(--primary-color);
   }
   .underline{
     text-decoration:underline;
@@ -21,11 +23,11 @@
   }
   
   .left{
-    text-align:left
+    text-align:left;
   }
   
   .center{
-    text-align:center
+    text-align:center;
   }
   
   .right{
