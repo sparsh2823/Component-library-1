@@ -1,8 +1,9 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+@import url("/css/root.css");
 
 .component-position{
     padding:1rem;
-    margin:1rem
+    margin:1rem;
 }
 
 
@@ -17,14 +18,14 @@
   }
 
 .btn-primary{
-  color:white;
-  background-color:#8ca0ff
+  color:var(--secondary-color);
+  background-color:var(--primary-color);
 }
 
 .btn-secondary{
-  color:#8ca0ff;
-  background-color:white;
-  border:1px solid #8ca0ff;
+  color:var(--primary-color);
+  background-color:var(--secondary-color);
+  border:1px solid var(--primary-color);
  }
 
 .cir{
