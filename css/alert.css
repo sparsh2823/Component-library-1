@@ -1,29 +1,30 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+@import url("/css/root.css");
 
 p{
-  padding-left:0.5rem
+  padding-left:0.5rem;
 }
 .success{
   
   border:0.5px solid green;
-  background-color:#32CD32;
+  background-color:var(--alert-success);
   margin:1rem;
  
 }
 .failure{
   border:0.5px solid red;
-  background-color:#E23D28;
+  background-color:var(--alert-failure);
   margin:1rem;
 }
 
 .warning{
   border:0.5px solid orange;
-  background-color:#ffc87c;
+  background-color:var(--alert-warning);
   margin:1rem;
 }
 .info{
   border:0.5px solid blue;
-  background-color:#8ca0ff;
+  background-color:var(--alert-info);
   margin:1rem;
 }
 
