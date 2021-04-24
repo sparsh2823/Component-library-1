@@ -1,17 +1,20 @@
+@import url("/css/root.css");
+
+
 #toast {
     visibility: hidden;
-    min-width: 250px;
-    margin-left: -125px;
+    min-width: 15.625rem;
+    margin-left:-7.813rem;
     background-color: green;
     color: #fff;
     text-align: center;
-    border-radius: 2px;
-    padding: 16px;
+    border-radius:0.125rem;
+    padding: 1rem;
     position: fixed;
     z-index: 1;
     left: 50%;
-    bottom: 30px;
-    font-size: 17px;
+    bottom:1.875rem;
+    font-size:1.063rem;
   }
   
   #toast.show {
