@@ -1,5 +1,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url("/css/root.css");
 
 @media screen and (max-width:768px)
 { 
@@ -11,7 +12,7 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color:#8ca0ff ;
+  background-color:var(--primary-color) ;
   color: black;
   text-align: center;
 }
@@ -43,7 +44,7 @@ body{
   
   .page1 > header {
     grid-area: head;
-    background-color: #8ca0ff;
+    background-color: var(--primary-color);
   }
   
   /* #page > nav {
@@ -58,7 +59,7 @@ body{
   
   .page1 > footer {
     grid-area: foot;
-    background-color:#8ca0ff;
+    background-color:var(--primary-color);
   }
   
   
@@ -70,11 +71,11 @@ body{
 
    #logo{
     
-    padding-left:3rem
+    padding-left:3rem;
   }
   
   .head-color{
-    color:white
+    color:white;
     
   }
 
@@ -116,7 +117,7 @@ body{
 
   .main-heading-center
   {
-    text-align:center
+    text-align:center;
   }
 
 
@@ -146,7 +147,7 @@ body{
 
 .list-item-inline{
     display:inline;
-    padding:0.2rem
+    padding:0.2rem;
 }
 
 
