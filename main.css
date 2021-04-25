@@ -107,6 +107,10 @@ body{
 
 }
   
+
+.nav-li-ctn{
+  padding-left:3rem;
+}
   
   .nav-li{
       padding:1rem 1rem 1rem 2rem;
