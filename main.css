@@ -86,14 +86,14 @@ body{
   }
   
   .head-color{
-    color:white
+    color:black;
     
   }
 
    
   .head-color-active{
     font-size: 26px;
-    color:white;
+    color:black;
     
   }
 
@@ -117,7 +117,7 @@ body{
   }
 
   a:hover {
-    color:white;
+    color:black;
     font-size: 24px;
     
   }
