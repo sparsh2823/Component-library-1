@@ -1,0 +1,59 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+@import url("/css/root.css");
+
+
+
+ .avatar-small{
+  width:2.688rem;
+  height:2.688rem;
+  border-radius: 50%;
+  
+}
+
+.avatar-badge{
+  position: relative;
+}
+
+.badge-status {
+    border: 1px solid white;
+    background-color: green;
+    height:1.063rem;
+    min-width:1.063rem;
+    padding-bottom:4px;
+    border-radius: 50%;
+    color:white;
+    text-align: center;
+    position: absolute;
+    right: 96%;
+    box-sizing: border-box;
+}
+
+.online {
+    background-color:green;
+}
+.online1 {
+    background-color:green;
+    bottom:10%
+}
+
+.offline {
+    background-color:red;
+}
+
+
+
+.badge-status-bell {
+    border: 1px solid white;
+    background-color: green;
+    height:1.125rem;
+    min-width:1.125rem;
+    border-radius: 50%;
+    color:white;
+    text-align: center;
+    position: absolute;
+    top:0.5%;
+    right:97.3%;
+    box-sizing: border-box;
+}
+
+

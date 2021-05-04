@@ -1,0 +1,53 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+@import url("/css/root.css");
+
+
+
+
+.nav{
+  background-color:var(--primary-color) ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem 5rem;
+}
+
+.brand-logo{
+  font-size: 2.3rem;
+  color: white;
+}
+
+
+.nav-list {
+  padding-inline-start: 0;
+  list-style: none;
+  display: flex;  
+  margin-left: -9rem;
+}
+
+.nav-list li {
+  padding:2rem;
+  margin: 0 2rem;
+  color: white;
+ 
+}
+
+
+.search-wrapper_input{
+  border: none;
+  padding: 0.3rem 1rem;
+  bottom:10px
+  outline: 2px solid black;
+}
+
+.search-wrapper{
+  position: relative;
+  top:2px;
+}
+.search-wrapper .fa-search{
+  position: absolute;
+  top: 0.35rem;
+  right: 0.6rem;
+  color: #8ca0ff;
+}
+

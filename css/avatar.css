@@ -1,0 +1,33 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+
+.component-position{
+    padding:2rem;
+    margin:4rem
+}
+
+
+
+.avatar-small{
+    width:1.875rem;
+    height:1.875rem;
+    border-radius: 50%
+  }
+  
+  
+  .avatar-medium{
+    width:3.125rem;
+    height:3.125rem;
+    border-radius: 50%
+  }
+  
+  .avatar-large{
+    width:3.75rem;
+    height:3.75rem;
+    border-radius:50%
+  }
+  .avatar-xl{
+    width:5.313rem;
+    height:5.313rem;
+    border-radius: 50%
+  }
+  
